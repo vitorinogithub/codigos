@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Atualizacoes\\WebApiJurosTestes\\WebApiJurosTestes\\WebApiTestes.csproj": {}
+    "C:\\Atualizacoes\\WebApiTestes\\WebApiTestes.csproj": {}
   },
   "projects": {
-    "C:\\Atualizacoes\\APIJUROS\\APIJUROS\\WebApi1.csproj": {
+    "C:\\Atualizacoes\\squadraTeste\\APIJUROS\\WebApi1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Atualizacoes\\APIJUROS\\APIJUROS\\WebApi1.csproj",
+        "projectUniqueName": "C:\\Atualizacoes\\squadraTeste\\APIJUROS\\WebApi1.csproj",
         "projectName": "WebApi1",
-        "projectPath": "C:\\Atualizacoes\\APIJUROS\\APIJUROS\\WebApi1.csproj",
+        "projectPath": "C:\\Atualizacoes\\squadraTeste\\APIJUROS\\WebApi1.csproj",
         "packagesPath": "C:\\Users\\jneto6\\.nuget\\packages\\",
-        "outputPath": "C:\\Atualizacoes\\APIJUROS\\APIJUROS\\obj\\",
+        "outputPath": "C:\\Atualizacoes\\squadraTeste\\APIJUROS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -55,10 +55,6 @@
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
               "version": "[5.6.3, )"
-            },
-            "Swashbuckle.Core": {
-              "target": "Package",
-              "version": "[5.6.0, )"
             }
           },
           "imports": [
@@ -83,14 +79,14 @@
         }
       }
     },
-    "C:\\Atualizacoes\\WebApiCalculaJuros\\WebApiCalculaJuros\\WebApi2.csproj": {
+    "C:\\Atualizacoes\\WebApi2\\WebApi2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Atualizacoes\\WebApiCalculaJuros\\WebApiCalculaJuros\\WebApi2.csproj",
+        "projectUniqueName": "C:\\Atualizacoes\\WebApi2\\WebApi2.csproj",
         "projectName": "WebApi2",
-        "projectPath": "C:\\Atualizacoes\\WebApiCalculaJuros\\WebApiCalculaJuros\\WebApi2.csproj",
+        "projectPath": "C:\\Atualizacoes\\WebApi2\\WebApi2.csproj",
         "packagesPath": "C:\\Users\\jneto6\\.nuget\\packages\\",
-        "outputPath": "C:\\Atualizacoes\\WebApiCalculaJuros\\WebApiCalculaJuros\\obj\\",
+        "outputPath": "C:\\Atualizacoes\\WebApi2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -158,14 +154,14 @@
         }
       }
     },
-    "C:\\Atualizacoes\\WebApiJurosTestes\\WebApiJurosTestes\\WebApiTestes.csproj": {
+    "C:\\Atualizacoes\\WebApiTestes\\WebApiTestes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Atualizacoes\\WebApiJurosTestes\\WebApiJurosTestes\\WebApiTestes.csproj",
+        "projectUniqueName": "C:\\Atualizacoes\\WebApiTestes\\WebApiTestes.csproj",
         "projectName": "WebApiTestes",
-        "projectPath": "C:\\Atualizacoes\\WebApiJurosTestes\\WebApiJurosTestes\\WebApiTestes.csproj",
+        "projectPath": "C:\\Atualizacoes\\WebApiTestes\\WebApiTestes.csproj",
         "packagesPath": "C:\\Users\\jneto6\\.nuget\\packages\\",
-        "outputPath": "C:\\Atualizacoes\\WebApiJurosTestes\\WebApiJurosTestes\\obj\\",
+        "outputPath": "C:\\Atualizacoes\\WebApiTestes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -185,11 +181,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Atualizacoes\\APIJUROS\\APIJUROS\\WebApi1.csproj": {
-                "projectPath": "C:\\Atualizacoes\\APIJUROS\\APIJUROS\\WebApi1.csproj"
+              "C:\\Atualizacoes\\squadraTeste\\APIJUROS\\WebApi1.csproj": {
+                "projectPath": "C:\\Atualizacoes\\squadraTeste\\APIJUROS\\WebApi1.csproj"
               },
-              "C:\\Atualizacoes\\WebApiCalculaJuros\\WebApiCalculaJuros\\WebApi2.csproj": {
-                "projectPath": "C:\\Atualizacoes\\WebApiCalculaJuros\\WebApiCalculaJuros\\WebApi2.csproj"
+              "C:\\Atualizacoes\\WebApi2\\WebApi2.csproj": {
+                "projectPath": "C:\\Atualizacoes\\WebApi2\\WebApi2.csproj"
               }
             }
           }

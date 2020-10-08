@@ -1801,8 +1801,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Swashbuckle.AspNetCore": "5.6.3",
-          "Swashbuckle.AspNetCore.Swagger": "5.6.3",
-          "Swashbuckle.Core": "5.6.0"
+          "Swashbuckle.AspNetCore.Swagger": "5.6.3"
         },
         "compile": {
           "bin/placeholder/WebApi1.dll": {}
@@ -6034,13 +6033,13 @@
     },
     "WebApi1/1.0.0": {
       "type": "project",
-      "path": "../../APIJUROS/APIJUROS/WebApi1.csproj",
-      "msbuildProject": "../../APIJUROS/APIJUROS/WebApi1.csproj"
+      "path": "../squadraTeste/APIJUROS/WebApi1.csproj",
+      "msbuildProject": "../squadraTeste/APIJUROS/WebApi1.csproj"
     },
     "WebApi2/1.0.0": {
       "type": "project",
-      "path": "../../WebApiCalculaJuros/WebApiCalculaJuros/WebApi2.csproj",
-      "msbuildProject": "../../WebApiCalculaJuros/WebApiCalculaJuros/WebApi2.csproj"
+      "path": "../WebApi2/WebApi2.csproj",
+      "msbuildProject": "../WebApi2/WebApi2.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6062,11 +6061,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Atualizacoes\\WebApiJurosTestes\\WebApiJurosTestes\\WebApiTestes.csproj",
+      "projectUniqueName": "C:\\Atualizacoes\\WebApiTestes\\WebApiTestes.csproj",
       "projectName": "WebApiTestes",
-      "projectPath": "C:\\Atualizacoes\\WebApiJurosTestes\\WebApiJurosTestes\\WebApiTestes.csproj",
+      "projectPath": "C:\\Atualizacoes\\WebApiTestes\\WebApiTestes.csproj",
       "packagesPath": "C:\\Users\\jneto6\\.nuget\\packages\\",
-      "outputPath": "C:\\Atualizacoes\\WebApiJurosTestes\\WebApiJurosTestes\\obj\\",
+      "outputPath": "C:\\Atualizacoes\\WebApiTestes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -6086,11 +6085,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Atualizacoes\\APIJUROS\\APIJUROS\\WebApi1.csproj": {
-              "projectPath": "C:\\Atualizacoes\\APIJUROS\\APIJUROS\\WebApi1.csproj"
+            "C:\\Atualizacoes\\squadraTeste\\APIJUROS\\WebApi1.csproj": {
+              "projectPath": "C:\\Atualizacoes\\squadraTeste\\APIJUROS\\WebApi1.csproj"
             },
-            "C:\\Atualizacoes\\WebApiCalculaJuros\\WebApiCalculaJuros\\WebApi2.csproj": {
-              "projectPath": "C:\\Atualizacoes\\WebApiCalculaJuros\\WebApiCalculaJuros\\WebApi2.csproj"
+            "C:\\Atualizacoes\\WebApi2\\WebApi2.csproj": {
+              "projectPath": "C:\\Atualizacoes\\WebApi2\\WebApi2.csproj"
             }
           }
         }
