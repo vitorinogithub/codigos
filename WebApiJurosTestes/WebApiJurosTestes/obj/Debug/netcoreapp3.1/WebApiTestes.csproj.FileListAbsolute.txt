@@ -1,7 +1,6 @@
 C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\WebApi1.exe
 C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\WebApi2.exe
 C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
@@ -105,10 +104,7 @@ C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\zh-H
 C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\WebApi1.dll
 C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\WebApi2.dll
-C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\WebApi1.pdb
-C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\WebApi1.xml
 C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\WebApi2.pdb
 C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\obj\Debug\netcoreapp3.1\WebApiTestes.csprojAssemblyReference.cache
 C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\obj\Debug\netcoreapp3.1\WebApiTestes.AssemblyInfoInputs.cache
@@ -120,3 +116,7 @@ C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\obj\Debug\netcoreapp3.1\WebA
 C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\testhost.exe
 C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\obj\Debug\netcoreapp3.1\WebApiTestes.csproj.CoreCompileInputs.cache
 C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\obj\Debug\netcoreapp3.1\WebApiTestes.sourcelink.json
+C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\WebApi1.exe
+C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\WebApi1.dll
+C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\WebApi1.pdb
+C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\WebApi1.xml

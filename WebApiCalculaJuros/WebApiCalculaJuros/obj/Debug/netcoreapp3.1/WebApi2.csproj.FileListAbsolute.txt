@@ -16,6 +16,9 @@ C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\bin\Debug\netcoreapp3.1\Sw
 C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\bin\Debug\netcoreapp3.1\WebActivatorEx.dll
 C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\obj\Debug\netcoreapp3.1\WebApi2.AssemblyInfoInputs.cache
 C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\obj\Debug\netcoreapp3.1\WebApi2.AssemblyInfo.cs
+C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\obj\Debug\netcoreapp3.1\WebApi2.csproj.CoreCompileInputs.cache
+C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\obj\Debug\netcoreapp3.1\WebApi2.MvcApplicationPartsAssemblyInfo.cache
+C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\obj\Debug\netcoreapp3.1\WebApi2.sourcelink.json
 C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\obj\Debug\netcoreapp3.1\WebApi2.RazorTargetAssemblyInfo.cache
 C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\obj\Debug\netcoreapp3.1\WebApi2.csproj.CopyComplete
 C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\obj\Debug\netcoreapp3.1\staticwebassets\WebApi2.StaticWebAssets.Manifest.cache
@@ -23,7 +26,3 @@ C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\obj\Debug\netcoreapp3.1\st
 C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\obj\Debug\netcoreapp3.1\WebApi2.dll
 C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\obj\Debug\netcoreapp3.1\WebApi2.pdb
 C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\obj\Debug\netcoreapp3.1\WebApi2.genruntimeconfig.cache
-C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\obj\Debug\netcoreapp3.1\WebApi2.csprojAssemblyReference.cache
-C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\obj\Debug\netcoreapp3.1\WebApi2.csproj.CoreCompileInputs.cache
-C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\obj\Debug\netcoreapp3.1\WebApi2.MvcApplicationPartsAssemblyInfo.cache
-C:\Atualizacoes\WebApiCalculaJuros\WebApiCalculaJuros\obj\Debug\netcoreapp3.1\WebApi2.sourcelink.json

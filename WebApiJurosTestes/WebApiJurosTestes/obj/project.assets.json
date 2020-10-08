@@ -1801,8 +1801,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Swashbuckle.AspNetCore": "5.6.3",
-          "Swashbuckle.AspNetCore.Swagger": "5.6.3",
-          "Swashbuckle.Core": "5.6.0"
+          "Swashbuckle.AspNetCore.Swagger": "5.6.3"
         },
         "compile": {
           "bin/placeholder/WebApi1.dll": {}
@@ -6034,8 +6033,8 @@
     },
     "WebApi1/1.0.0": {
       "type": "project",
-      "path": "../../APIJUROS/APIJUROS/WebApi1.csproj",
-      "msbuildProject": "../../APIJUROS/APIJUROS/WebApi1.csproj"
+      "path": "../../squadra/APIJUROS/WebApi1.csproj",
+      "msbuildProject": "../../squadra/APIJUROS/WebApi1.csproj"
     },
     "WebApi2/1.0.0": {
       "type": "project",
@@ -6086,8 +6085,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Atualizacoes\\APIJUROS\\APIJUROS\\WebApi1.csproj": {
-              "projectPath": "C:\\Atualizacoes\\APIJUROS\\APIJUROS\\WebApi1.csproj"
+            "C:\\Atualizacoes\\squadra\\APIJUROS\\WebApi1.csproj": {
+              "projectPath": "C:\\Atualizacoes\\squadra\\APIJUROS\\WebApi1.csproj"
             },
             "C:\\Atualizacoes\\WebApiCalculaJuros\\WebApiCalculaJuros\\WebApi2.csproj": {
               "projectPath": "C:\\Atualizacoes\\WebApiCalculaJuros\\WebApiCalculaJuros\\WebApi2.csproj"

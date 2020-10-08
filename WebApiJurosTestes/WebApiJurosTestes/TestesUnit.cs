@@ -5,8 +5,8 @@ using System;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using WebApiCalculaJuros.Helpers;
-using WebApiCalculaJuros.Models;
+using WebApi2.Helpers;
+using WebApi2.Models;
 using Xunit;
 
 namespace WebApiJurosTestes
@@ -18,7 +18,7 @@ namespace WebApiJurosTestes
         [InlineData(0.01)]
         public void TaxajurosErro(double juros)
         {
-            double resultado = new WebApi1.Taxa().Juros;
+            double resultado = new WebApi1.Models.Taxa().Juros;
             Assert.Equal(juros, resultado);
         }
 

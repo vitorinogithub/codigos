@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebApiCalculaJuros.Models
+namespace WebApi2.Models
 {
     public class Taxa
     {

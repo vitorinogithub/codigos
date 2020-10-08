@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApiCalculaJuros.Models;
+using WebApi2.Models;
 
-namespace WebApiCalculaJuros.Helpers
+namespace WebApi2.Helpers
 {
     public class Juros
     {

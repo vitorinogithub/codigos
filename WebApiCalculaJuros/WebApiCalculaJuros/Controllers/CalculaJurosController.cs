@@ -3,8 +3,8 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using WebApiCalculaJuros.Helpers;
-using WebApiCalculaJuros.Models;
+using WebApi2.Helpers;
+using WebApi2.Models;
 
 
 namespace WebApi2.Controllers
@@ -13,6 +13,12 @@ namespace WebApi2.Controllers
     [Route("[controller]", Name = "calculaJuros")]
     public class CalculaJurosController : ControllerBase
     {
+
+        public string showMeTheCode()
+        {
+            return "https://github.com/vitorinogithub/codigos";
+        }
+
         [HttpGet]
         public async Task<IActionResult> CalcularJuros(double valorinicial, int meses)
         {
