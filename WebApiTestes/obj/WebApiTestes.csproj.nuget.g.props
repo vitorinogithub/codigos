@@ -27,9 +27,10 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\jneto6\.nuget\packages\xunit.analyzers\0.10.0</Pkgxunit_analyzers>
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\jneto6\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets Condition=" '$(PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets)' == '' ">C:\Users\jneto6\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.10.9</PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets>
     <PkgMicrosoft_SourceLink_Common Condition=" '$(PkgMicrosoft_SourceLink_Common)' == '' ">C:\Users\jneto6\.nuget\packages\microsoft.sourcelink.common\1.1.0-beta-20204-02</PkgMicrosoft_SourceLink_Common>
     <PkgMicrosoft_Build_Tasks_Git Condition=" '$(PkgMicrosoft_Build_Tasks_Git)' == '' ">C:\Users\jneto6\.nuget\packages\microsoft.build.tasks.git\1.1.0-beta-20204-02</PkgMicrosoft_Build_Tasks_Git>
     <PkgMicrosoft_SourceLink_GitHub Condition=" '$(PkgMicrosoft_SourceLink_GitHub)' == '' ">C:\Users\jneto6\.nuget\packages\microsoft.sourcelink.github\1.1.0-beta-20204-02</PkgMicrosoft_SourceLink_GitHub>
-    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\jneto6\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
   </PropertyGroup>
 </Project>

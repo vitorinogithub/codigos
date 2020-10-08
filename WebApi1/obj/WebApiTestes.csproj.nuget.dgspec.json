@@ -1,167 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Atualizacoes\\WebApiJurosTestes\\WebApiJurosTestes\\WebApiTestes.csproj": {}
+    "C:\\Atualizacoes\\WebApi1\\WebApiTestes.csproj": {}
   },
   "projects": {
-    "C:\\Atualizacoes\\squadra\\APIJUROS\\WebApi1.csproj": {
+    "C:\\Atualizacoes\\WebApi1\\WebApiTestes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Atualizacoes\\squadra\\APIJUROS\\WebApi1.csproj",
-        "projectName": "WebApi1",
-        "projectPath": "C:\\Atualizacoes\\squadra\\APIJUROS\\WebApi1.csproj",
-        "packagesPath": "C:\\Users\\jneto6\\.nuget\\packages\\",
-        "outputPath": "C:\\Atualizacoes\\squadra\\APIJUROS\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\jneto6\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.SourceLink.GitHub": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.1.0-beta-20204-02, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            },
-            "Swashbuckle.AspNetCore.Swagger": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Atualizacoes\\WebApiCalculaJuros\\WebApiCalculaJuros\\WebApi2.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Atualizacoes\\WebApiCalculaJuros\\WebApiCalculaJuros\\WebApi2.csproj",
-        "projectName": "WebApi2",
-        "projectPath": "C:\\Atualizacoes\\WebApiCalculaJuros\\WebApiCalculaJuros\\WebApi2.csproj",
-        "packagesPath": "C:\\Users\\jneto6\\.nuget\\packages\\",
-        "outputPath": "C:\\Atualizacoes\\WebApiCalculaJuros\\WebApiCalculaJuros\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\jneto6\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.SourceLink.GitHub": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.1.0-beta-20204-02, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.3, )"
-            },
-            "Swashbuckle": {
-              "target": "Package",
-              "version": "[5.6.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Atualizacoes\\WebApiJurosTestes\\WebApiJurosTestes\\WebApiTestes.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Atualizacoes\\WebApiJurosTestes\\WebApiJurosTestes\\WebApiTestes.csproj",
+        "projectUniqueName": "C:\\Atualizacoes\\WebApi1\\WebApiTestes.csproj",
         "projectName": "WebApiTestes",
-        "projectPath": "C:\\Atualizacoes\\WebApiJurosTestes\\WebApiJurosTestes\\WebApiTestes.csproj",
+        "projectPath": "C:\\Atualizacoes\\WebApi1\\WebApiTestes.csproj",
         "packagesPath": "C:\\Users\\jneto6\\.nuget\\packages\\",
-        "outputPath": "C:\\Atualizacoes\\WebApiJurosTestes\\WebApiJurosTestes\\obj\\",
+        "outputPath": "C:\\Atualizacoes\\WebApi1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -181,11 +31,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Atualizacoes\\squadra\\APIJUROS\\WebApi1.csproj": {
-                "projectPath": "C:\\Atualizacoes\\squadra\\APIJUROS\\WebApi1.csproj"
+              "C:\\squadra\\APIJUROS\\WebApi1.csproj": {
+                "projectPath": "C:\\squadra\\APIJUROS\\WebApi1.csproj"
               },
-              "C:\\Atualizacoes\\WebApiCalculaJuros\\WebApiCalculaJuros\\WebApi2.csproj": {
-                "projectPath": "C:\\Atualizacoes\\WebApiCalculaJuros\\WebApiCalculaJuros\\WebApi2.csproj"
+              "C:\\WebApiCalculaJuros\\WebApiCalculaJuros\\WebApi2.csproj": {
+                "projectPath": "C:\\WebApiCalculaJuros\\WebApiCalculaJuros\\WebApi2.csproj"
               }
             }
           }
@@ -241,9 +91,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

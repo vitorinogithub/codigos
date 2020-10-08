@@ -1,14 +1,13 @@
 using FluentAssertions;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using WebApi1.Models;
 using WebApi2.Helpers;
 using WebApi2.Models;
 using Xunit;
-using Taxa = WebApi2.Models.Taxa;
 
 namespace WebApiJurosTestes
 {
@@ -49,7 +48,7 @@ namespace WebApiJurosTestes
                 {
                     if (response.IsSuccessStatusCode)
                     {
-                         Taxa _taxa = JsonConvert.DeserializeObject<Taxa>(await response.Content.ReadAsStringAsync());
+                        Taxa _taxa = JsonConvert.DeserializeObject<Taxa>(await response.Content.ReadAsStringAsync());
                         _taxa.valorinicial =Convert.ToDouble(100);
                         _taxa.meses = meses;
                         string resultado = Juros.Calcular(_taxa).ToString();

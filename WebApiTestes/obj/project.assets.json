@@ -8,6 +8,18 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "DocumentFormat.OpenXml/2.11.3": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Packaging": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
+        }
+      },
       "FluentAssertions/6.0.0-alpha0001": {
         "type": "package",
         "dependencies": {
@@ -45,19 +57,6 @@
           "lib/net40/System.Web.Http.dll": {}
         }
       },
-      "Microsoft.AspNet.WebApi.WebHost/4.0.20710": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.WebApi.Core": "[4.0.20710, 4.1.0)",
-          "Microsoft.Web.Infrastructure": "1.0.0"
-        },
-        "compile": {
-          "lib/net40/System.Web.Http.WebHost.dll": {}
-        },
-        "runtime": {
-          "lib/net40/System.Web.Http.WebHost.dll": {}
-        }
-      },
       "Microsoft.Build.Tasks.Git/1.1.0-beta-20204-02": {
         "type": "package",
         "build": {
@@ -89,6 +88,19 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/_._": {}
+        }
+      },
+      "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "System.Reflection.TypeExtensions": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll": {}
         }
       },
       "Microsoft.Net.Http/2.0.20710": {
@@ -406,13 +418,10 @@
           "build/netcoreapp2.1/Microsoft.TestPlatform.TestHost.props": {}
         }
       },
-      "Microsoft.Web.Infrastructure/1.0.0": {
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.9": {
         "type": "package",
-        "compile": {
-          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        "build": {
+          "build/_._": {}
         }
       },
       "Microsoft.Win32.Primitives/4.3.0": {
@@ -662,14 +671,6 @@
             "assetType": "native",
             "rid": "ubuntu.16.10-x64"
           }
-        }
-      },
-      "Swashbuckle/5.6.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.WebApi.WebHost": "4.0.20710",
-          "Swashbuckle.Core": "5.6.0",
-          "WebActivatorEx": "2.0.0"
         }
       },
       "Swashbuckle.AspNetCore/5.6.3": {
@@ -1014,6 +1015,15 @@
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
         }
       },
+      "System.IO.Packaging/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.IO.Packaging.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.IO.Packaging.dll": {}
+        }
+      },
       "System.Linq/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1232,7 +1242,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/_._": {}
+          "ref/netstandard1.5/System.Reflection.TypeExtensions.dll": {}
         },
         "runtime": {
           "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": {}
@@ -1705,18 +1715,6 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "WebActivatorEx/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Web.Infrastructure": "1.0.0"
-        },
-        "compile": {
-          "lib/net40/WebActivatorEx.dll": {}
-        },
-        "runtime": {
-          "lib/net40/WebActivatorEx.dll": {}
-        }
-      },
       "xunit/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -1801,7 +1799,8 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Swashbuckle.AspNetCore": "5.6.3",
-          "Swashbuckle.AspNetCore.Swagger": "5.6.3"
+          "Swashbuckle.AspNetCore.Swagger": "5.6.3",
+          "Swashbuckle.Core": "5.6.0"
         },
         "compile": {
           "bin/placeholder/WebApi1.dll": {}
@@ -1817,8 +1816,11 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "DocumentFormat.OpenXml": "2.11.3",
+          "Microsoft.Extensions.PlatformAbstractions": "1.1.0",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
           "Newtonsoft.Json": "12.0.3",
-          "Swashbuckle": "5.6.0"
+          "Swashbuckle.AspNetCore": "5.6.3"
         },
         "compile": {
           "bin/placeholder/WebApi2.dll": {}
@@ -1863,6 +1865,28 @@
         "coverlet-icon.png",
         "coverlet.collector.1.3.0.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "DocumentFormat.OpenXml/2.11.3": {
+      "sha512": "dCugN386ka+LwcOHnxi4gUHbiDeIw0/GEYw1sXFhYiErGFbJpRpscRcn5b12dywUReFCOgGNJ/l16zG5udkC/A==",
+      "type": "package",
+      "path": "documentformat.openxml/2.11.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "documentformat.openxml.2.11.3.nupkg.sha512",
+        "documentformat.openxml.nuspec",
+        "icon.png",
+        "lib/net35/DocumentFormat.OpenXml.dll",
+        "lib/net35/DocumentFormat.OpenXml.xml",
+        "lib/net40/DocumentFormat.OpenXml.dll",
+        "lib/net40/DocumentFormat.OpenXml.xml",
+        "lib/net46/DocumentFormat.OpenXml.dll",
+        "lib/net46/DocumentFormat.OpenXml.xml",
+        "lib/netstandard1.3/DocumentFormat.OpenXml.dll",
+        "lib/netstandard1.3/DocumentFormat.OpenXml.xml",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.dll",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
       ]
     },
     "FluentAssertions/6.0.0-alpha0001": {
@@ -1917,19 +1941,6 @@
         "lib/net40/System.Web.Http.xml",
         "microsoft.aspnet.webapi.core.4.0.20710.nupkg.sha512",
         "microsoft.aspnet.webapi.core.nuspec"
-      ]
-    },
-    "Microsoft.AspNet.WebApi.WebHost/4.0.20710": {
-      "sha512": "Pqje5F4BJvnN6z2eSIuyCCZNJbIPap/4bYfvvHYy/kiYPj7+cFK+tgcSKWgITwk+6K8v+Bf3Et16DXQQuK+wEg==",
-      "type": "package",
-      "path": "microsoft.aspnet.webapi.webhost/4.0.20710",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/System.Web.Http.WebHost.dll",
-        "lib/net40/System.Web.Http.WebHost.xml",
-        "microsoft.aspnet.webapi.webhost.4.0.20710.nupkg.sha512",
-        "microsoft.aspnet.webapi.webhost.nuspec"
       ]
     },
     "Microsoft.Build.Tasks.Git/1.1.0-beta-20204-02": {
@@ -2039,6 +2050,21 @@
         "tools/netcoreapp2.1/GetDocument.Insider.deps.json",
         "tools/netcoreapp2.1/GetDocument.Insider.dll",
         "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json"
+      ]
+    },
+    "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
+      "sha512": "H6ZsQzxYw/6k2DfEQRXdC+vQ6obd6Uba3uGJrnJ2vG4PRXjQZ7seB13JdCfE72abp8E6Fk3gGgDzfJiLZi5ZpQ==",
+      "type": "package",
+      "path": "microsoft.extensions.platformabstractions/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net451/Microsoft.Extensions.PlatformAbstractions.dll",
+        "lib/net451/Microsoft.Extensions.PlatformAbstractions.xml",
+        "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll",
+        "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.xml",
+        "microsoft.extensions.platformabstractions.1.1.0.nupkg.sha512",
+        "microsoft.extensions.platformabstractions.nuspec"
       ]
     },
     "Microsoft.Net.Http/2.0.20710": {
@@ -2436,16 +2462,68 @@
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
-    "Microsoft.Web.Infrastructure/1.0.0": {
-      "sha512": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.9": {
+      "sha512": "Sug+YeP9YYigFnUdvPCUJjBz7cc2VVR7UBZkIRwPWmVR/HmIM5HbcpX940s4BM3xgL3QHGp3qN7AqkcZ/MjZEw==",
       "type": "package",
-      "path": "microsoft.web.infrastructure/1.0.0",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.10.9",
+      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net40/Microsoft.Web.Infrastructure.dll",
-        "microsoft.web.infrastructure.1.0.0.nupkg.sha512",
-        "microsoft.web.infrastructure.nuspec"
+        "EULA.md",
+        "ThirdPartyNotices.txt",
+        "build/Container.props",
+        "build/Container.targets",
+        "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props",
+        "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets",
+        "build/ToolsTarget.props",
+        "build/ToolsTarget.targets",
+        "microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+        "microsoft.visualstudio.azure.containers.tools.targets.nuspec",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Common.dll",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Shared.dll",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Tasks.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/utils/KillProcess.exe",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
       ]
     },
     "Microsoft.Win32.Primitives/4.3.0": {
@@ -2769,18 +2847,6 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
-      ]
-    },
-    "Swashbuckle/5.6.0": {
-      "sha512": "UAE91ynpgvwoUs8igq3k/D0HV+cHrGRGJR9cwIPGE08hHJenn24MR2vq1n6NYbDWEwAVm+RYUW+qIsO9p5Sn/Q==",
-      "type": "package",
-      "path": "swashbuckle/5.6.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Content/App_Start/SwaggerConfig.cs.pp",
-        "swashbuckle.5.6.0.nupkg.sha512",
-        "swashbuckle.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/5.6.3": {
@@ -3772,6 +3838,33 @@
         "ref/xamarinwatchos10/_._",
         "system.io.filesystem.primitives.4.3.0.nupkg.sha512",
         "system.io.filesystem.primitives.nuspec"
+      ]
+    },
+    "System.IO.Packaging/4.7.0": {
+      "sha512": "9VV4KAbgRQZ79iEoG40KIeZy38O30oWwewScAST879+oki8g/Wa2HXZQgrhDDxQM4GkP1PnRJll05NMiVPbYAw==",
+      "type": "package",
+      "path": "system.io.packaging/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.IO.Packaging.dll",
+        "lib/net46/System.IO.Packaging.xml",
+        "lib/netstandard1.3/System.IO.Packaging.dll",
+        "lib/netstandard1.3/System.IO.Packaging.xml",
+        "lib/netstandard2.0/System.IO.Packaging.dll",
+        "lib/netstandard2.0/System.IO.Packaging.xml",
+        "ref/net46/System.IO.Packaging.dll",
+        "ref/net46/System.IO.Packaging.xml",
+        "ref/netstandard1.3/System.IO.Packaging.dll",
+        "ref/netstandard1.3/System.IO.Packaging.xml",
+        "ref/netstandard2.0/System.IO.Packaging.dll",
+        "ref/netstandard2.0/System.IO.Packaging.xml",
+        "system.io.packaging.4.7.0.nupkg.sha512",
+        "system.io.packaging.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Linq/4.3.0": {
@@ -5884,18 +5977,6 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "WebActivatorEx/2.0.0": {
-      "sha512": "B3ZbOEaGCqa7BLjZZw6wqprOJJMvP39h7Lr5ADkJOCPKHppAaCre34kR63/gfgpM4htzTfgm/pEw7r7qqqMgIA==",
-      "type": "package",
-      "path": "webactivatorex/2.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/WebActivatorEx.dll",
-        "webactivatorex.2.0.0.nupkg.sha512",
-        "webactivatorex.nuspec"
-      ]
-    },
     "xunit/2.4.1": {
       "sha512": "XNR3Yz9QTtec16O0aKcO6+baVNpXmOnPUxDkCY97J+8krUYxPvXT1szYYEUdKk4sB8GOI2YbAjRIOm8ZnXRfzQ==",
       "type": "package",
@@ -6033,8 +6114,8 @@
     },
     "WebApi1/1.0.0": {
       "type": "project",
-      "path": "../squadraTeste/APIJUROS/WebApi1.csproj",
-      "msbuildProject": "../squadraTeste/APIJUROS/WebApi1.csproj"
+      "path": "../WebApi1/WebApi1.csproj",
+      "msbuildProject": "../WebApi1/WebApi1.csproj"
     },
     "WebApi2/1.0.0": {
       "type": "project",
@@ -6085,8 +6166,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Atualizacoes\\squadraTeste\\APIJUROS\\WebApi1.csproj": {
-              "projectPath": "C:\\Atualizacoes\\squadraTeste\\APIJUROS\\WebApi1.csproj"
+            "C:\\Atualizacoes\\WebApi1\\WebApi1.csproj": {
+              "projectPath": "C:\\Atualizacoes\\WebApi1\\WebApi1.csproj"
             },
             "C:\\Atualizacoes\\WebApi2\\WebApi2.csproj": {
               "projectPath": "C:\\Atualizacoes\\WebApi2\\WebApi2.csproj"
@@ -6181,16 +6262,6 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Microsoft.AspNet.WebApi.WebHost 4.0.20710' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "Microsoft.AspNet.WebApi.WebHost",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
       "message": "O pacote 'Microsoft.Net.Http 2.0.20710' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
       "libraryId": "Microsoft.Net.Http",
       "targetGraphs": [
@@ -6201,28 +6272,8 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Microsoft.Web.Infrastructure 1.0.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "Microsoft.Web.Infrastructure",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
       "message": "O pacote 'Swashbuckle.Core 5.6.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
       "libraryId": "Swashbuckle.Core",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'WebActivatorEx 2.0.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "WebActivatorEx",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]

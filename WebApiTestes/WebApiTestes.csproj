@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\squadraTeste\APIJUROS\WebApi1.csproj" />
+    <ProjectReference Include="..\WebApi1\WebApi1.csproj" />
     <ProjectReference Include="..\WebApi2\WebApi2.csproj" />
   </ItemGroup>
 

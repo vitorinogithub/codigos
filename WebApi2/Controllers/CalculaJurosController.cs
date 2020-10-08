@@ -13,13 +13,24 @@ namespace WebApi2.Controllers
     [Route("[controller]", Name = "calculaJuros")]
     public class CalculaJurosController : ControllerBase
     {
-
-        public string showMeTheCode()
+        /// <summary>
+        /// Exibe url do codigo no GITHUB
+        /// código em c# com AspNetCore
+        /// </summary>      
+        /// <returns>Objeto contendo url do GITHUB</returns>
+        [HttpGet("/showMeTheCode")]
+        public IActionResult showMeTheCode()
         {
-            return "https://github.com/vitorinogithub/codigos";
+            return Ok("https://github.com/vitorinogithub/codigos");
         }
 
-        [HttpGet]
+        /// <summary>
+        /// Ela faz um cálculo em memória, de juros compostos, 
+        /// conforme abaixo: Valor Final = Valor Inicial * (1 + juros) ^ Tempo. Sem arredondamento
+        /// </summary>
+        /// <returns>Valor do Juros deve ser consultado na WEBAPI1.</returns>
+
+        [HttpGet("/calculaJuros")]
         public async Task<IActionResult> CalcularJuros(double valorinicial, int meses)
         {
             string urlLaunch = "https://localhost:44370/taxaJuros";
