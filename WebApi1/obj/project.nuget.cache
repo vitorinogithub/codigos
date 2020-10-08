@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QpnC0fOCjq5Qc0YVKPFdmAMTtQvbivh3RO+1XBrDp04XkbycfsSNSaUh2YWmuomfB7vvzNZWfj4tV/+pNcZRiA==",
+  "dgSpecHash": "rJT1vLHsa1Bk7tmvqvHPS3lewopI7RqEkv1QVvOukuEUZvYWhXu/mHPsg16IPobomu5PgH+71NP0MYeaVbyyMg==",
   "success": true,
   "projectFilePath": "C:\\Atualizacoes\\WebApi1\\WebApi1.csproj",
   "expectedPackageFiles": [
@@ -13,12 +13,15 @@
     "C:\\Users\\jneto6\\.nuget\\packages\\microsoft.sourcelink.common\\1.1.0-beta-20204-02\\microsoft.sourcelink.common.1.1.0-beta-20204-02.nupkg.sha512",
     "C:\\Users\\jneto6\\.nuget\\packages\\microsoft.sourcelink.github\\1.1.0-beta-20204-02\\microsoft.sourcelink.github.1.1.0-beta-20204-02.nupkg.sha512",
     "C:\\Users\\jneto6\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
-    "C:\\Users\\jneto6\\.nuget\\packages\\newtonsoft.json\\7.0.1\\newtonsoft.json.7.0.1.nupkg.sha512",
+    "C:\\Users\\jneto6\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\jneto6\\.nuget\\packages\\selenium.support\\4.0.0-alpha05\\selenium.support.4.0.0-alpha05.nupkg.sha512",
+    "C:\\Users\\jneto6\\.nuget\\packages\\selenium.webdriver\\4.0.0-alpha05\\selenium.webdriver.4.0.0-alpha05.nupkg.sha512",
     "C:\\Users\\jneto6\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\jneto6\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\jneto6\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "C:\\Users\\jneto6\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
-    "C:\\Users\\jneto6\\.nuget\\packages\\swashbuckle.core\\5.6.0\\swashbuckle.core.5.6.0.nupkg.sha512"
+    "C:\\Users\\jneto6\\.nuget\\packages\\swashbuckle.core\\5.6.0\\swashbuckle.core.5.6.0.nupkg.sha512",
+    "C:\\Users\\jneto6\\.nuget\\packages\\webdriver.chromedriver.win32\\85.0.4183.87\\webdriver.chromedriver.win32.85.0.4183.87.nupkg.sha512"
   ],
   "logs": [
     {
@@ -47,16 +50,6 @@
       "warningLevel": 1,
       "message": "O pacote 'Microsoft.Net.Http 2.0.20710' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
       "libraryId": "Microsoft.Net.Http",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Newtonsoft.Json 7.0.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]

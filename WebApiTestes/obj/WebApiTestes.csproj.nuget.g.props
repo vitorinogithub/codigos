@@ -27,6 +27,7 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\jneto6\.nuget\packages\xunit.analyzers\0.10.0</Pkgxunit_analyzers>
+    <PkgWebDriver_ChromeDriver_win32 Condition=" '$(PkgWebDriver_ChromeDriver_win32)' == '' ">C:\Users\jneto6\.nuget\packages\webdriver.chromedriver.win32\85.0.4183.87</PkgWebDriver_ChromeDriver_win32>
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\jneto6\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
     <PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets Condition=" '$(PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets)' == '' ">C:\Users\jneto6\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.10.9</PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets>
     <PkgMicrosoft_SourceLink_Common Condition=" '$(PkgMicrosoft_SourceLink_Common)' == '' ">C:\Users\jneto6\.nuget\packages\microsoft.sourcelink.common\1.1.0-beta-20204-02</PkgMicrosoft_SourceLink_Common>

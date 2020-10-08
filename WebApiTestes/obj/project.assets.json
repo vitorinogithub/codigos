@@ -673,6 +673,30 @@
           }
         }
       },
+      "Selenium.Support/4.0.0-alpha05": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.0.0-alpha05"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/4.0.0-alpha05": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/5.6.3": {
         "type": "package",
         "dependencies": {
@@ -1715,6 +1739,9 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "WebDriver.ChromeDriver.win32/85.0.4183.87": {
+        "type": "package"
+      },
       "xunit/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -1799,9 +1826,12 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
+          "Selenium.Support": "4.0.0-alpha05",
+          "Selenium.WebDriver": "4.0.0-alpha05",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Swashbuckle.AspNetCore.Swagger": "5.6.3",
-          "Swashbuckle.Core": "5.6.0"
+          "Swashbuckle.Core": "5.6.0",
+          "WebDriver.ChromeDriver.win32": "85.0.4183.87"
         },
         "compile": {
           "bin/placeholder/WebApi1.dll": {}
@@ -1821,7 +1851,10 @@
           "Microsoft.Extensions.PlatformAbstractions": "1.1.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
           "Newtonsoft.Json": "12.0.3",
-          "Swashbuckle.AspNetCore": "5.6.3"
+          "Selenium.Support": "4.0.0-alpha05",
+          "Selenium.WebDriver": "4.0.0-alpha05",
+          "Swashbuckle.AspNetCore": "5.6.3",
+          "WebDriver.ChromeDriver.win32": "85.0.4183.87"
         },
         "compile": {
           "bin/placeholder/WebApi2.dll": {}
@@ -2848,6 +2881,39 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "Selenium.Support/4.0.0-alpha05": {
+      "sha512": "mEp+3gUXtr4SJPg6oRrPLyND98y3N4J0H6MA1GMdjFW14kj01OE0+KFQtgyrN6EBKzxiDTkZoMk8mkF3Al/cKg==",
+      "type": "package",
+      "path": "selenium.support/4.0.0-alpha05",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/WebDriver.Support.dll",
+        "lib/net46/WebDriver.Support.dll",
+        "lib/net47/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "selenium.support.4.0.0-alpha05.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/4.0.0-alpha05": {
+      "sha512": "ZaaY0T5eTDjxcJSZbgZuVUbc4eCSoY8cCjLHwAjHoeBBZQIq3SrlCTkaFNZ46288niZUlS9a5ehLAF7rpa86zQ==",
+      "type": "package",
+      "path": "selenium.webdriver/4.0.0-alpha05",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/WebDriver.dll",
+        "lib/net45/WebDriver.xml",
+        "lib/net46/WebDriver.dll",
+        "lib/net46/WebDriver.xml",
+        "lib/net47/WebDriver.dll",
+        "lib/net47/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "selenium.webdriver.4.0.0-alpha05.nupkg.sha512",
+        "selenium.webdriver.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/5.6.3": {
@@ -5978,6 +6044,21 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "WebDriver.ChromeDriver.win32/85.0.4183.87": {
+      "sha512": "1yMqwTVsXFOtBvN8UV1Gz9ZyKmFvIL6uSV/LjOUt9vLoHAoQh4Ox7d74AJQ1+WepH7XN0UoqoS8YVWwmAMztog==",
+      "type": "package",
+      "path": "webdriver.chromedriver.win32/85.0.4183.87",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/chromedriver.exe",
+        "tools/install.ps1",
+        "tools/uninstall.ps1",
+        "webdriver.chromedriver.win32.85.0.4183.87.nupkg.sha512",
+        "webdriver.chromedriver.win32.nuspec"
+      ]
+    },
     "xunit/2.4.1": {
       "sha512": "XNR3Yz9QTtec16O0aKcO6+baVNpXmOnPUxDkCY97J+8krUYxPvXT1szYYEUdKk4sB8GOI2YbAjRIOm8ZnXRfzQ==",
       "type": "package",
@@ -6129,8 +6210,11 @@
       "FluentAssertions >= 6.0.0-alpha0001",
       "Microsoft.NET.Test.Sdk >= 16.8.0-preview-20200921-01",
       "Microsoft.SourceLink.GitHub >= 1.1.0-beta-20204-02",
+      "Selenium.Support >= 4.0.0-alpha05",
+      "Selenium.WebDriver >= 4.0.0-alpha05",
       "WebApi1 >= 1.0.0",
       "WebApi2 >= 1.0.0",
+      "WebDriver.ChromeDriver.win32 >= 85.0.4183.87",
       "coverlet.collector >= 1.3.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -6198,6 +6282,18 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[1.1.0-beta-20204-02, )"
+          },
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[4.0.0-alpha05, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[4.0.0-alpha05, )"
+          },
+          "WebDriver.ChromeDriver.win32": {
+            "target": "Package",
+            "version": "[85.0.4183.87, )"
           },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

@@ -54,7 +54,6 @@ C:\Atualizacoes\WebApi2\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll
 C:\Atualizacoes\WebApi2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
 C:\Atualizacoes\WebApi2\bin\Debug\netcoreapp3.1\WebApi2.xml
 C:\Atualizacoes\WebApi2\obj\Debug\netcoreapp3.1\WebApi2.xml
-C:\Atualizacoes\WebApi2\obj\Debug\netcoreapp3.1\WebApi2.csproj.CoreCompileInputs.cache
-C:\Atualizacoes\WebApi2\obj\Debug\netcoreapp3.1\WebApi2.MvcApplicationPartsAssemblyInfo.cs
-C:\Atualizacoes\WebApi2\obj\Debug\netcoreapp3.1\WebApi2.MvcApplicationPartsAssemblyInfo.cache
-C:\Atualizacoes\WebApi2\obj\Debug\netcoreapp3.1\WebApi2.sourcelink.json
+C:\Atualizacoes\WebApi2\obj\Debug\netcoreapp3.1\WebApi2.csprojAssemblyReference.cache
+C:\Atualizacoes\WebApi2\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Atualizacoes\WebApi2\bin\Debug\netcoreapp3.1\WebDriver.Support.dll

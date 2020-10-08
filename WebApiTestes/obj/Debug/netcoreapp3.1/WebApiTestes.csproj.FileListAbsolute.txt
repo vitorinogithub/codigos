@@ -123,8 +123,6 @@ C:\Atualizacoes\WebApiJurosTestes\WebApiJurosTestes\bin\Debug\netcoreapp3.1\WebA
 C:\Atualizacoes\WebApiTestes\obj\Debug\netcoreapp3.1\WebApiTestes.csprojAssemblyReference.cache
 C:\Atualizacoes\WebApiTestes\obj\Debug\netcoreapp3.1\WebApiTestes.AssemblyInfoInputs.cache
 C:\Atualizacoes\WebApiTestes\obj\Debug\netcoreapp3.1\WebApiTestes.AssemblyInfo.cs
-C:\Atualizacoes\WebApiTestes\obj\Debug\netcoreapp3.1\WebApiTestes.csproj.CoreCompileInputs.cache
-C:\Atualizacoes\WebApiTestes\obj\Debug\netcoreapp3.1\WebApiTestes.sourcelink.json
 C:\Atualizacoes\WebApiTestes\obj\Debug\netcoreapp3.1\WebApiTestes.dll
 C:\Atualizacoes\WebApiTestes\obj\Debug\netcoreapp3.1\WebApiTestes.pdb
 C:\Atualizacoes\WebApiTestes\bin\Debug\netcoreapp3.1\appsettings.Development.json
@@ -235,7 +233,6 @@ C:\Atualizacoes\WebApiTestes\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandar
 C:\Atualizacoes\WebApiTestes\bin\Debug\netcoreapp3.1\WebApi1.dll
 C:\Atualizacoes\WebApiTestes\bin\Debug\netcoreapp3.1\WebApi2.dll
 C:\Atualizacoes\WebApiTestes\bin\Debug\netcoreapp3.1\WebApi1.pdb
-C:\Atualizacoes\WebApiTestes\bin\Debug\netcoreapp3.1\WebApi1.xml
 C:\Atualizacoes\WebApiTestes\bin\Debug\netcoreapp3.1\WebApi2.pdb
 C:\Atualizacoes\WebApiTestes\obj\Debug\netcoreapp3.1\WebApiTestes.csproj.CopyComplete
 C:\Atualizacoes\WebApiTestes\obj\Debug\netcoreapp3.1\WebApiTestes.genruntimeconfig.cache
@@ -243,3 +240,6 @@ C:\Atualizacoes\WebApiTestes\bin\Debug\netcoreapp3.1\DocumentFormat.OpenXml.dll
 C:\Atualizacoes\WebApiTestes\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
 C:\Atualizacoes\WebApiTestes\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll
 C:\Atualizacoes\WebApiTestes\bin\Debug\netcoreapp3.1\WebApi2.xml
+C:\Atualizacoes\WebApiTestes\bin\Debug\netcoreapp3.1\WebApi1.xml
+C:\Atualizacoes\WebApiTestes\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Atualizacoes\WebApiTestes\bin\Debug\netcoreapp3.1\WebDriver.Support.dll

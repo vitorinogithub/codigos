@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jbQ1PwCRfOZ6lR0044v/GG0teqX+77dC7g4ALRtDzzFl4IhVgzMun6lOVbqmfNG0XOZoawSax4RvQMrzIK8fnA==",
+  "dgSpecHash": "lv2IKglAERN8JrPsIN3yZ0DXq1w0b3WbP6VydSGT5q/TLjhUpSMV61ZN3ZuAVkuaL9vc4YqjkH5DYRRrNUlYWg==",
   "success": true,
   "projectFilePath": "C:\\Atualizacoes\\WebApiTestes\\WebApiTestes.csproj",
   "expectedPackageFiles": [
@@ -43,6 +43,8 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\jneto6\\.nuget\\packages\\selenium.support\\4.0.0-alpha05\\selenium.support.4.0.0-alpha05.nupkg.sha512",
+    "C:\\Users\\jneto6\\.nuget\\packages\\selenium.webdriver\\4.0.0-alpha05\\selenium.webdriver.4.0.0-alpha05.nupkg.sha512",
     "C:\\Users\\jneto6\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\jneto6\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\jneto6\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
@@ -104,6 +106,7 @@
     "C:\\Users\\jneto6\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\jneto6\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\jneto6\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\jneto6\\.nuget\\packages\\webdriver.chromedriver.win32\\85.0.4183.87\\webdriver.chromedriver.win32.85.0.4183.87.nupkg.sha512",
     "C:\\Users\\jneto6\\.nuget\\packages\\xunit\\2.4.1\\xunit.2.4.1.nupkg.sha512",
     "C:\\Users\\jneto6\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
     "C:\\Users\\jneto6\\.nuget\\packages\\xunit.analyzers\\0.10.0\\xunit.analyzers.0.10.0.nupkg.sha512",

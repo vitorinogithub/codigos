@@ -52,6 +52,14 @@
               "target": "Package",
               "version": "[1.10.9, )"
             },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.0.0-alpha05, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.0.0-alpha05, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -63,6 +71,10 @@
             "Swashbuckle.Core": {
               "target": "Package",
               "version": "[5.6.0, )"
+            },
+            "WebDriver.ChromeDriver.win32": {
+              "target": "Package",
+              "version": "[85.0.4183.87, )"
             }
           },
           "imports": [
@@ -147,9 +159,21 @@
               "target": "Package",
               "version": "[12.0.3, )"
             },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.0.0-alpha05, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.0.0-alpha05, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "WebDriver.ChromeDriver.win32": {
+              "target": "Package",
+              "version": "[85.0.4183.87, )"
             }
           },
           "imports": [
@@ -232,6 +256,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[1.1.0-beta-20204-02, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.0.0-alpha05, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.0.0-alpha05, )"
+            },
+            "WebDriver.ChromeDriver.win32": {
+              "target": "Package",
+              "version": "[85.0.4183.87, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

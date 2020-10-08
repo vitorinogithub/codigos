@@ -23,7 +23,7 @@ namespace WebApiJurosTestes
         }
 
         [Fact]
-        public async Task IntegracaoWeabJuros()
+        public async Task ResponseOK()
         {
             using (var client = new HttpClient())
             { 

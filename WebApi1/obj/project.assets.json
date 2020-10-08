@@ -100,13 +100,37 @@
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Selenium.Support/4.0.0-alpha05": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.0.0-alpha05"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/4.0.0-alpha05": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {}
         }
       },
       "Swashbuckle.AspNetCore/5.6.3": {
@@ -175,6 +199,9 @@
         "runtime": {
           "lib/net40/Swashbuckle.Core.dll": {}
         }
+      },
+      "WebDriver.ChromeDriver.win32/85.0.4183.87": {
+        "type": "package"
       }
     }
   },
@@ -467,14 +494,14 @@
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
       ]
     },
-    "Newtonsoft.Json/7.0.1": {
-      "sha512": "q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA==",
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "type": "package",
-      "path": "newtonsoft.json/7.0.1",
-      "hasTools": true,
+      "path": "newtonsoft.json/12.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -483,13 +510,51 @@
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
         "lib/net45/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
-        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
-        "newtonsoft.json.7.0.1.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "tools/install.ps1"
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "Selenium.Support/4.0.0-alpha05": {
+      "sha512": "mEp+3gUXtr4SJPg6oRrPLyND98y3N4J0H6MA1GMdjFW14kj01OE0+KFQtgyrN6EBKzxiDTkZoMk8mkF3Al/cKg==",
+      "type": "package",
+      "path": "selenium.support/4.0.0-alpha05",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/WebDriver.Support.dll",
+        "lib/net46/WebDriver.Support.dll",
+        "lib/net47/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "selenium.support.4.0.0-alpha05.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/4.0.0-alpha05": {
+      "sha512": "ZaaY0T5eTDjxcJSZbgZuVUbc4eCSoY8cCjLHwAjHoeBBZQIq3SrlCTkaFNZ46288niZUlS9a5ehLAF7rpa86zQ==",
+      "type": "package",
+      "path": "selenium.webdriver/4.0.0-alpha05",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/WebDriver.dll",
+        "lib/net45/WebDriver.xml",
+        "lib/net46/WebDriver.dll",
+        "lib/net46/WebDriver.xml",
+        "lib/net47/WebDriver.dll",
+        "lib/net47/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "selenium.webdriver.4.0.0-alpha05.nupkg.sha512",
+        "selenium.webdriver.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/5.6.3": {
@@ -566,15 +631,33 @@
         "swashbuckle.core.5.6.0.nupkg.sha512",
         "swashbuckle.core.nuspec"
       ]
+    },
+    "WebDriver.ChromeDriver.win32/85.0.4183.87": {
+      "sha512": "1yMqwTVsXFOtBvN8UV1Gz9ZyKmFvIL6uSV/LjOUt9vLoHAoQh4Ox7d74AJQ1+WepH7XN0UoqoS8YVWwmAMztog==",
+      "type": "package",
+      "path": "webdriver.chromedriver.win32/85.0.4183.87",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/chromedriver.exe",
+        "tools/install.ps1",
+        "tools/uninstall.ps1",
+        "webdriver.chromedriver.win32.85.0.4183.87.nupkg.sha512",
+        "webdriver.chromedriver.win32.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.SourceLink.GitHub >= 1.1.0-beta-20204-02",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
+      "Selenium.Support >= 4.0.0-alpha05",
+      "Selenium.WebDriver >= 4.0.0-alpha05",
       "Swashbuckle.AspNetCore >= 5.6.3",
       "Swashbuckle.AspNetCore.Swagger >= 5.6.3",
-      "Swashbuckle.Core >= 5.6.0"
+      "Swashbuckle.Core >= 5.6.0",
+      "WebDriver.ChromeDriver.win32 >= 85.0.4183.87"
     ]
   },
   "packageFolders": {
@@ -629,6 +712,14 @@
             "target": "Package",
             "version": "[1.10.9, )"
           },
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[4.0.0-alpha05, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[4.0.0-alpha05, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.6.3, )"
@@ -640,6 +731,10 @@
           "Swashbuckle.Core": {
             "target": "Package",
             "version": "[5.6.0, )"
+          },
+          "WebDriver.ChromeDriver.win32": {
+            "target": "Package",
+            "version": "[85.0.4183.87, )"
           }
         },
         "imports": [
@@ -691,16 +786,6 @@
       "warningLevel": 1,
       "message": "O pacote 'Microsoft.Net.Http 2.0.20710' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
       "libraryId": "Microsoft.Net.Http",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Newtonsoft.Json 7.0.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]

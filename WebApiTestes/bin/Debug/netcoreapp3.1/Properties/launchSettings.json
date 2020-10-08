@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:54502",
-      "sslPort": 44347
+      "applicationUrl": "http://localhost:59063",
+      "sslPort": 44370
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
@@ -12,15 +12,15 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "calculaJuros",
+      "launchUrl": "taxaJuros",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "WebApiCalculaJuros": {
+    "APIJUROS": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "calculaJuros",
+      "launchUrl": "taxaJuros",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
@@ -29,7 +29,7 @@
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/calculaJuros",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/taxaJuros",
       "publishAllPorts": true,
       "useSSL": true
     }

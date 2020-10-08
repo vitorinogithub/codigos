@@ -29,6 +29,8 @@
           "Microsoft.SourceLink.GitHub": "1.1.0-beta-20204-02",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
           "Newtonsoft.Json": "12.0.3",
+          "Selenium.Support": "4.0.0-alpha05",
+          "Selenium.WebDriver": "4.0.0-alpha05",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -486,6 +488,34 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "Selenium.Support/4.0.0-alpha05": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.0.0-alpha05"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/4.0.0-alpha05": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/5.6.3": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
@@ -3007,6 +3037,20 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "Selenium.Support/4.0.0-alpha05": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mEp+3gUXtr4SJPg6oRrPLyND98y3N4J0H6MA1GMdjFW14kj01OE0+KFQtgyrN6EBKzxiDTkZoMk8mkF3Al/cKg==",
+      "path": "selenium.support/4.0.0-alpha05",
+      "hashPath": "selenium.support.4.0.0-alpha05.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.0.0-alpha05": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZaaY0T5eTDjxcJSZbgZuVUbc4eCSoY8cCjLHwAjHoeBBZQIq3SrlCTkaFNZ46288niZUlS9a5ehLAF7rpa86zQ==",
+      "path": "selenium.webdriver/4.0.0-alpha05",
+      "hashPath": "selenium.webdriver.4.0.0-alpha05.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/5.6.3": {
       "type": "package",
