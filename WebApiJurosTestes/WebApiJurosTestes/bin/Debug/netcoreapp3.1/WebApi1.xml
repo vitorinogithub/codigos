@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi1</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi1.Controllers.TaxaJurosController.ObterJuros">
+            <summary>
+            Retorna Juros.
+            </summary>
+            <returns>Juros deve ser igual a 0.01</returns>
+            <response code="200">Returna juros fixo</response>
+        </member>
+    </members>
+</doc>
