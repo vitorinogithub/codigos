@@ -58,4 +58,3 @@ C:\Atualizacoes\WebApi2\obj\Debug\netcoreapp3.1\WebApi2.csproj.CoreCompileInputs
 C:\Atualizacoes\WebApi2\obj\Debug\netcoreapp3.1\WebApi2.MvcApplicationPartsAssemblyInfo.cs
 C:\Atualizacoes\WebApi2\obj\Debug\netcoreapp3.1\WebApi2.MvcApplicationPartsAssemblyInfo.cache
 C:\Atualizacoes\WebApi2\obj\Debug\netcoreapp3.1\WebApi2.sourcelink.json
-C:\Atualizacoes\WebApi2\obj\Debug\netcoreapp3.1\WebApi2.csprojAssemblyReference.cache
